@@ -1,0 +1,4 @@
+GET /computervision/retrieval/indexes/my-video-index/queryByText?api-version=2023-05-01-preview
+Host: elizmultiservicecognitiveservicesresourceeastus.cognitiveservices.azure.com
+ocp-apim-subscription-key: be4be90667d64aac9f611ee15139c6df
+Content-Type: application/json

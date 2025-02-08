@@ -1,0 +1,16 @@
+The following are the labels and their values detected in the image:
+{% for label in labels %}
+- {{ label.key }}: {{ label.value }}
+{% endfor %}
+
+
+Below are examples of images and their corresponding labels:
+
+{% examples %}
+    SAMPLE IMAGE:
+    {{ base64_image}}
+
+    ANSWER:
+    {% items %}
+        {{ item.label }}: {{ item.text }}
+    {% enditems %}

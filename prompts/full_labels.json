@@ -1,0 +1,299 @@
+{
+    "停车场类型": [
+      {"场景值key": "ground", "场景值中文内容": "地上"},
+      {"场景值key": "underground", "场景值中文内容": "地下"},
+      {"场景值key": "parking_lot", "场景值中文内容": "停车楼"}
+    ],
+    "停车位类型": [
+      {"场景值key": "vertical_parking_space", "场景值中文内容": "垂直车位"},
+      {"场景值key": "horizontal_parking_space", "场景值中文内容": "水平车位"},
+      {"场景值key": "inclined_parking_space", "场景值中文内容": "斜向车位"},
+      {"场景值key": "special_parking_space", "场景值中文内容": "特殊车位"},
+      {"场景值key": "T-shaped_parking_space", "场景值中文内容": "T字车位"},
+      {"场景值key": "Ground_lock_parking_space", "场景值中文内容": "地锁车位"}
+    ],
+    "划线颜色": [
+      {"场景值key": "white", "场景值中文内容": "白色"},
+      {"场景值key": "yellow", "场景值中文内容": "黄色"},
+      {"场景值key": "red", "场景值中文内容": "红色"},
+      {"场景值key": "green", "场景值中文内容": "绿色"},
+      {"场景值key": "black", "场景值中文内容": "黑色"}
+    ],
+    "地面类型floor_type": [
+      {"场景值key": "concrete_floor", "场景值中文内容": "水泥地面"},
+      {"场景值key": "asphalt_ground", "场景值中文内容": "沥青地面"},
+      {"场景值key": "brick_grass", "场景值中文内容": "砖块草地"},
+      {"场景值key": "epoxy_floor", "场景值中文内容": "环氧地坪"}
+    ],
+    "道路区域": [
+      {"场景值key": "high_speed", "场景值中文内容": "高速"},
+      {"场景值key": "city_proper", "场景值中文内容": "城区"},
+      {"场景值key": "country", "场景值中文内容": "乡间"},
+      {"场景值key": "mountain_road", "场景值中文内容": "山路"},
+      {"场景值key": "ramp_road", "场景值中文内容": "匝道"}
+    ],
+    "天气": [
+      {"场景值key": "sunny", "场景值中文内容": "晴天"},
+      {"场景值key": "light_rain", "场景值中文内容": "小雨"},
+      {"场景值key": "overcast", "场景值中文内容": "阴天"},
+      {"场景值key": "light_snow", "场景值中文内容": "小雪"},
+      {"场景值key": "light_foggy", "场景值中文内容": "小雾"},
+      {"场景值key": "sandstorm", "场景值中文内容": "沙尘暴"},
+      {"场景值key": "smog", "场景值中文内容": "雾霾"},
+      {"场景值key": "heavy_rain", "场景值中文内容": "大雨"},
+      {"场景值key": "moderate_rain", "场景值中文内容": "中雨"},
+      {"场景值key": "heavy_snow", "场景值中文内容": "大雪"},
+      {"场景值key": "moderate_snow", "场景值中文内容": "中雪"},
+      {"场景值key": "heavy_foggy", "场景值中文内容": "大雾"},
+      {"场景值key": "moderate_foggy", "场景值中文内容": "中雾"},
+      {"场景值key": "cloudy", "场景值中文内容": "多云"}      
+    ],
+    "光照": [
+        {"场景值key": "weak_light", "场景值中文内容": "弱光"},
+        {"场景值key": "strong_light", "场景值中文内容": "强光"},
+        {"场景值key": "follow_light", "场景值中文内容": "顺光"},
+        {"场景值key": "lateral_light", "场景值中文内容": "侧光"},
+        {"场景值key": "back_light", "场景值中文内容": "逆光"},
+        {"场景值key": "dark", "场景值中文内容": "暗光"}     
+      ],
+      "时间": [
+        {"场景值key": "dawn", "场景值中文内容": "黎明"},
+        {"场景值key": "day", "场景值中文内容": "白天"},
+        {"场景值key": "Evening", "场景值中文内容": "傍晚"},
+        {"场景值key": "night", "场景值中文内容": "夜晚"}
+      ],
+      "车道线类型": [
+        {"场景值key": "laneway_line", "场景值中文内容": "无车道线"},
+        {"场景值key": "solid_white_line", "场景值中文内容": "白色实线"},
+        {"场景值key": "Single_Yellow_Line", "场景值中文内容": "单黄实线"},
+        {"场景值key": "Double_Yellow_Line", "场景值中文内容": "双黄实线"},
+        {"场景值key": "Yellow_dotted_line", "场景值中文内容": "黄色虚实线"},
+        {"场景值key": "Yellow_No_Stopping_Solid_Line", "场景值中文内容": "黄色禁止停车实线"},
+        {"场景值key": "Diversion_line", "场景值中文内容": "导流线"},
+        {"场景值key": "Stop-grid", "场景值中文内容": "禁停网格线"},
+        {"场景值key": "dotted_white_line", "场景值中文内容": "白色虚线"},
+        {"场景值key": "crosswalk", "场景值中文内容": "人行横道"},
+        {"场景值key": "lane_divider", "场景值中文内容": "车道隔离带"},
+        {"场景值key": "Yugu_line", "场景值中文内容": "鱼骨线"}
+      ],
+      "道路角度": [
+        {"场景值key": "Straights", "场景值中文内容": "直道"},
+        {"场景值key": "winding_road", "场景值中文内容": "弯道"},
+        {"场景值key": "High-speed_upper_and_lower_ports", "场景值中文内容": "高速上下口"},
+        {"场景值key": "Up-and-down_slope", "场景值中文内容": "上下坡"}
+      ],
+      "交叉口": [
+        {"场景值key": "Sancha", "场景值中文内容": "三岔口"},
+        {"场景值key": "Crosscut", "场景值中文内容": "十字路"},
+        {"场景值key": "Multiple_forks", "场景值中文内容": "多叉口"},
+        {"场景值key": "T-junction", "场景值中文内容": "丁字路口"},
+        {"场景值key": "roundabout", "场景值中文内容": "环岛"}
+      ],
+      "环境复杂度": [
+        {"场景值key": "Buildings_on_both_sides_of_the_road", "场景值中文内容": "路两边建筑物"},
+        {"场景值key": "Green_plants_on_both_sides_of_the_road","场景值中文内容": "路两边绿植"},
+        {"场景值key": "Billboards_plants_on_both_sides_of_the_road","场景值中文内容": "路两边广告牌"},
+        {"场景值key": "Special_decoration","场景值中文内容": "特殊装饰"},
+        {"场景值key": "Reflective_glass_curtain_wall","场景值中文内容": "反光的玻璃幕墙"}
+      ],
+      "物体类型": [
+        {"场景值key": "roadblock", "场景值中文内容": "路障"},
+        {"场景值key": "Construction_area", "场景值中文内容": "施工区域"},
+        {"场景值key": "Arrow_traffic_lights", "场景值中文内容": "箭头交通灯"},
+        {"场景值key": "Special_traffic_sign", "场景值中文内容": "特殊交通标识"}
+      ],
+      "道路类型": [
+        {"场景值key": "overhead", "场景值中文内容": "高架"},
+        {"场景值key": "tunnel", "场景值中文内容": "隧道"},
+        {"场景值key": "bridge", "场景值中文内容": "桥梁"},
+        {"场景值key": "culvert", "场景值中文内容": "涵洞"},
+        {"场景值key": "Bus_lane", "场景值中文内容": "公交车道"},
+        {"场景值key": "Dedicated_lane", "场景值中文内容": "专用道"},
+        {"场景值key": "Emergency_Vehicle_Lane", "场景值中文内容": "应急车道"},
+        {"场景值key": "freeway_ramp", "场景值中文内容": "匝道"},
+        {"场景值key": "Multi-occupant_lane", "场景值中文内容": "多乘员车道"},
+        {"场景值key": "One_way_traffic", "场景值中文内容": "单行道"},
+        {"场景值key": "Restricted_roads", "场景值中文内容": "限行道路"},
+        {"场景值key": "Non-motorized_lane", "场景值中文内容": "非机动车道"},
+        {"场景值key": "reversible_lanes", "场景值中文内容": "潮汐车道"}
+      ],
+      "路面": [
+        {"场景值key": "Cement_road", "场景值中文内容": "水泥路"},
+        {"场景值key": "Gravel_road", "场景值中文内容": "砂石路"},
+        {"场景值key": "Mud_Road", "场景值中文内容": "泥巴路"},
+        {"场景值key": "dry", "场景值中文内容": "干燥"},
+        {"场景值key": "snow", "场景值中文内容": "积雪"},
+        {"场景值key": "damp", "场景值中文内容": "潮湿"},
+        {"场景值key": "pothole", "场景值中文内容": "坑洼"},
+        {"场景值key": "shadow", "场景值中文内容": "阴影"},
+        {"场景值key": "Ponding_reflection", "场景值中文内容": "积水反光"},
+        {"场景值key": "Pavement_number", "场景值中文内容": "路面数字"},
+        {"场景值key": "Pavement_characters", "场景值中文内容": "路面文字"},
+        {"场景值key": "Water", "场景值中文内容": "积水"}
+      ],
+      "道路面": [
+        {"场景值key": "urban", "场景值中文内容": "城镇"},
+        {"场景值key": "suburban", "场景值中文内容": "郊区"},
+        {"场景值key": "rural", "场景值中文内容": "乡村"},
+        {"场景值key": "elevated_road", "场景值中文内容": "高架路"},
+        {"场景值key": "Flagstone", "场景值中文内容": "石板路"}
+        ],
+        "白天/夜晚": [
+        {"场景值key": "Day", "场景值中文内容": "白天"},
+        {"场景值key": "Night", "场景值中文内容": "夜晚"}
+        ],
+        "比例正确/错误": [
+        {"场景值key": "Correct", "场景值中文内容": "正确"},
+        {"场景值key": "Incorrect", "场景值中文内容": "错误"}
+        ],
+        "帽子颜色": [
+          {"场景值key": "Black", "场景值中文内容": "黑色"},
+          {"场景值key": "White", "场景值中文内容": "白色"},
+          {"场景值key": "Red", "场景值中文内容": "红色"},
+          {"场景值key": "Blue", "场景值中文内容": "蓝色"},
+          {"场景值key": "Yellow", "场景值中文内容": "黄色"}
+        ],
+        "是否有帽沿": [
+          {"场景值key": "Have", "场景值中文内容": "有"},
+          {"场景值key": "No", "场景值中文内容": "无"}
+        ],
+        "眼镜反光": [
+          {"场景值key": "Low", "场景值中文内容": "低反光"},
+          {"场景值key": "Middle", "场景值中文内容": "中反光"},
+          {"场景值key": "High", "场景值中文内容": "高反光"}
+        ],
+        "口罩颜色": [
+          {"场景值key": "Black", "场景值中文内容": "黑色"},
+          {"场景值key": "White", "场景值中文内容": "白色"},
+          {"场景值key": "Blue", "场景值中文内容": "蓝色"}
+        ],
+        "场景": [
+          {"场景值key": "BusinessOffice", "场景值中文内容": "商业办公区"},
+          {"场景值key": "Residence", "场景值中文内容": "住宅"},
+          {"场景值key": "Mall", "场景值中文内容": "购物中心"},
+          {"场景值key": "MovieTheater", "场景值中文内容": "电影院"},
+          {"场景值key": "Supermarket", "场景值中文内容": "超市"},
+          {"场景值key": "Airport", "场景值中文内容": "机场"}
+        ],
+        "道路类型": [
+          {"场景值key": "NarrowRoad", "场景值中文内容": "窄路"},
+          {"场景值key": "WideRoad", "场景值中文内容": "宽阔道路"}
+        ],
+        "照明类型": [
+          {"场景值key": "BrightLighting", "场景值中文内容": "明亮照明"},
+          {"场景值key": "DimLighting", "场景值中文内容": "暗淡照明"},
+          {"场景值key": "MotionSensorLighting", "场景值中文内容": "运动传感器照明"}
+        ],
+        "地面类型ground_type": [
+          {"场景值key": "ReflectiveGround", "场景值中文内容": "反光地面"},
+          {"场景值key": "Non-reflectiveGround", "场景值中文内容": "非反光地面"}
+        ],
+        "停车场景": [
+          {"场景值key": "Indoor", "场景值中文内容": "室内停车场"},
+          {"场景值key": "OutdoorStandard", "场景值中文内容": "室外标准停车场"},
+          {"场景值key": "OutdoorParterre", "场景值中文内容": "室外花坛停车场"}
+        ],
+        "停车光照": [
+          {"场景值key": "Reflective", "场景值中文内容": "反光"},
+          {"场景值key": "Dark", "场景值中文内容": "阴暗"},
+          {"场景值key": "Standard", "场景值中文内容": "标准"}
+        ],
+        "划线种类": [
+          {"场景值key": "Single", "场景值中文内容": "单线"},
+          {"场景值key": "Double", "场景值中文内容": "双线"},
+          {"场景值key": "Closed", "场景值中文内容": "全封闭"},
+          {"场景值key": "None", "场景值中文内容": "无线"},
+          {"场景值key": "T", "场景值中文内容": "T型"}
+        ],
+        "障碍物": [
+          {"场景值key": "Slender", "场景值中文内容": "包含细长障碍物"},
+          {"场景值key": "None", "场景值中文内容": "不包含细长障碍物"}
+        ],
+        "停车线是否清晰": [
+          {"场景值key": "Clear", "场景值中文内容": "清晰"},
+          {"场景值key": "None", "场景值中文内容": "模糊"}
+        ],
+        "有无停车动作": [
+          {"场景值key": "Parking", "场景值中文内容": "有停车动作"},
+          {"场景值key": "None", "场景值中文内容": "无停车动作"}
+        ],
+        "相机位置": [
+          {"场景值key": "A-pillar", "场景值中文内容": "A柱位置"},
+          {"场景值key": "steering_wheel", "场景值中文内容": "方向盘位置"},
+          {"场景值key": "driving_mirror", "场景值中文内容": "后视镜位置"},
+          {"场景值key": "car's_roof", "场景值中文内容": "车顶棚位置"}
+        ],
+        "使用场景": [
+          {"场景值key": "OMS", "场景值中文内容": "OMS"},
+          {"场景值key": "DMS", "场景值中文内容": "DMS"}
+        ],
+        "图片类型": [
+          {"场景值key": "IR", "场景值中文内容": "IR"},
+          {"场景值key": "RGB", "场景值中文内容": "RGB"}
+        ],
+        "道路区域": [
+          {"场景值key": "state_road", "场景值中文内容": "国道"},
+          {"场景值key": "county_road", "场景值中文内容": "县道"}
+        ],
+        "场景": [
+          {"场景值key": "School", "场景值中文内容": "学校"},
+          {"场景值key": "Factory", "场景值中文内容": "厂区"},
+          {"场景值key": "Community", "场景值中文内容": "小区"}
+        ],
+        "车道线类型": [
+          {"场景值key": "dash_solid", "场景值中文内容": "左虚右实线"},
+          {"场景值key": "solid_dash", "场景值中文内容": "左实右虚线"}
+        ],
+        "异形车": [
+          {"场景值key": "two_wheel_vehicle", "场景值中文内容": "两轮车"},
+          {"场景值key": "tricycle", "场景值中文内容": "三轮车"},
+          {"场景值key": "truck", "场景值中文内容": "卡车"}
+        ],
+        "道路角度": [
+          {"场景值key": "Overhead_upper_and_lower_ports", "场景值中文内容": "高架上下口"}
+        ],
+        "物体类型": [
+          {"场景值key": "cone", "场景值中文内容": "锥桶"},
+          {"场景值key": "Water_horse", "场景值中文内容": "水马"}
+        ],
+        "物体类型": [
+          {"场景值key": "fence", "场景值中文内容": "围栏"}
+        ],
+        "道路灯": [
+          {"场景值key": "lamp", "场景值中文内容": "有路灯"},
+          {"场景值key": "no_lamp", "场景值中文内容": "无路灯"}
+        ],
+        "场景": [
+          {"场景值key": "GasStation", "场景值中文内容": "加油站"},
+          {"场景值key": "TollStation", "场景值中文内容": "收费站"},
+          {"场景值key": "SentryBox", "场景值中文内容": "岗亭"}
+        ],
+        "道路类型": [
+          {"场景值key": "ElevatedUnderpass", "场景值中文内容": "高架下道路"}
+        ],
+        "道路角度": [
+          {"场景值key": "Straights_change_road_multiple", "场景值中文内容": "直道多次变道"}
+        ],
+        "交叉口": [
+          {"场景值key": "no-intersection", "场景值中文内容": "无交叉口"},
+          {"场景值key": "fork_road", "场景值中文内容": "分叉路口"},
+          {"场景值key": "merge_road", "场景值中文内容": "融合路口"}
+        ],
+        "动态场景": [
+          {"场景值key": "simulate_carrying_passengers", "场景值中文内容": "模拟载客"},
+          {"场景值key": "simulate_dropping_off_passengers", "场景值中文内容": "模拟下客"},
+          {"场景值key": "passing_u_turn", "场景值中文内容": "车辆U-turn过程"},
+          {"场景值key": "passing_dirt_road", "场景值中文内容": "车辆经过土路"},
+          {"场景值key": "passing_the_construction_road", "场景值中文内容": "车辆经过施工路段"}
+        ],
+        "车道线类型": [
+          {"场景值key": "blue_solid_line", "场景值中文内容": "蓝色实线"},
+          {"场景值key": "blue_dash_line", "场景值中文内容": "蓝色虚线"},
+          {"场景值key": "red_solid_line", "场景值中文内容": "红色实线"},
+          {"场景值key": "green_solid_line", "场景值中文内容": "绿色实线"},
+          {"场景值key": "variable_lane", "场景值中文内容": "可变车道线"},
+          {"场景值key": "red_dash_line", "场景值中文内容": "红色虚线"},
+          {"场景值key": "green_dash_line", "场景值中文内容": "绿色虚线"}
+        ]       
+}                
+  

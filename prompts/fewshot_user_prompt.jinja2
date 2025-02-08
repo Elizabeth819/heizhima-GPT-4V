@@ -1,0 +1,12 @@
+Below are examples of images and their corresponding labels:
+{% for image_name, labels in images_labels.items() %}
+    SAMPLE IMAGE: {{ image_name }}
+    Next line is the base64 representation of the image:
+        {{ images_base64[image_name] }}
+    ANSWER:
+        {% for label_key, label_value in labels.items() -%}
+             {{ label_key: label_value }}
+        {% endfor %}
+    ##############################    
+{% endfor %}
+When you don't recognize the label, you can use "NA" to indicate that you don't know what the image is about.

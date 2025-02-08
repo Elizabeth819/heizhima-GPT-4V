@@ -1,0 +1,20 @@
+POST /computervision/retrieval/indexes/my-video-index/queryByText?api-version=2023-05-01-preview HTTP/1.1
+Host: elizmultiservicecognitiveservicesresourceeastus.cognitiveservices.azure.com
+ocp-apim-subscription-key: be4be90667d64aac9f611ee15139c6df
+Content-Type: application/json
+
+
+{
+  "queryText": "a man with blue t-shirt",
+  "filters": {
+    "stringFilters": [
+      {
+        "fieldName": "cameraId",
+        "values": [
+          "camera1"
+        ]
+      }
+    ],
+    "featureFilters": ["vision"]
+  }
+}

@@ -1,0 +1,31 @@
+PUT https://elizmultiservicecognitiveservicesresourceeastus.cognitiveservices.azure.com/computervision/retrieval/indexes/my-video-index?api-version=2023-05-01-preview
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: be4be90667d64aac9f611ee15139c6df
+
+{
+  "metadataSchema": {
+    "fields": [
+      {
+        "name": "cameraId",
+        "searchable": false,
+        "filterable": true,
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "searchable": false,
+        "filterable": true,
+        "type": "datetime"
+      }
+    ]
+  },
+  "features": [
+    {
+      "name": "vision",
+      "domain": "surveillance"
+    },
+    {
+      "name": "speech"
+    }
+  ]
+}
