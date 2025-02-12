@@ -8124,3 +8124,4 @@ When you don't recognize the label, you can use "NA" to indicate that you don't 
 这张图片显示自车在阴天的白天行驶在城市道路上的高架桥上，行驶道路为沥青路面，光照条件为弱光。自车所在的车道上没有车道线，左侧车道线也不可见，右侧车道线为无车道线。前方的路面状况为干燥且有阴影，道路宽度属于宽阔道路。
 
 在自车前方有多辆轿车和SUV，交通流量适中。道路两侧有路灯。在道路的右侧，可以看到城市的天际线，包括一些高楼大厦。车道指示标志显示直行。
+2025-02-11 17:05:25,637 - tornado.general - ERROR - SEND Error: Host unreachable

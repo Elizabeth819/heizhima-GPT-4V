@@ -1,0 +1,5 @@
+# PAYG Azure OpenAI
+AZURE_SUBSCRIPTION_ID = '0d3f39ba-7349-4bd7-8122-649ff18f0a4a'
+AOAI_ENDPOINT = "https://gpt4o-eliz-westus3.openai.azure.com/"
+AOAI_KEY = ""
+AOAI_DEPLOY_NAME = 'gpt-4o'
